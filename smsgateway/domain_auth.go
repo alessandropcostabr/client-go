@@ -17,6 +17,7 @@ const (
 	ScopeMessagesRead   JWTScope = "messages:read"
 	ScopeMessagesList   JWTScope = "messages:list"
 	ScopeMessagesExport JWTScope = "messages:export"
+	ScopeMessagesPurge  JWTScope = "messages:purge"
 
 	ScopeSettingsRead  JWTScope = "settings:read"
 	ScopeSettingsWrite JWTScope = "settings:write"
